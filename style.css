@@ -1,0 +1,134 @@
+/* Utilities */
+.fs-0 {
+  font-size: 4rem;
+}
+
+.fs-7 {
+  font-size: 0.7rem;
+}
+
+/* custom classes for colors */
+.bg-gray {
+  background-color: #f0f2f5;
+}
+
+.bg-sky {
+  background-color: #a8dadc;
+}
+.text-black {
+  color: #2b2d42;
+}
+.text-msg {
+  background-color: #edf6f9;
+}
+.text-sky {
+  color: #a8dadc;
+}
+.primary-btn {
+  background-color: #2b2d42;
+  color: #f0f2f5;
+}
+.primary-btn:hover {
+  background-color: #2b2d42;
+  color: #f0f2f5;
+}
+.secondry-btn {
+  color: #2b2d42;
+  background-color: #edf2f4;
+}
+.input-color {
+  color: #2b2d42;
+  background-color: #edf2f4;
+}
+
+.secondry-btn:hover {
+  color: #2b2d42;
+  background-color: #edf2f4;
+}
+.nav_btn button:hover {
+  background-color: #f0f2f5 !important;
+}
+
+.nav_btn-active {
+  position: relative;
+}
+.nav_btn-active:before {
+  content: "";
+  position: absolute;
+  bottom: -4.5px;
+  left: 0;
+  transform: translateY(4.5px);
+  width: 100%;
+  height: 3px;
+  border-bottom: 3px solid #2b2d42 !important;
+}
+
+/* chat box */
+.modal-content:hover .fa-phone {
+  color: #a8dadc !important;
+}
+.modal-content:hover .fa-video {
+  color: #a8dadc !important;
+}
+.modal-content:hover .fa-file-image {
+  color: #a8dadc !important;
+}
+.modal-content:hover .fa-circle-plus {
+  color: #a8dadc !important;
+}
+.modal-content:hover .fa-portrait {
+  color: #a8dadc !important;
+}
+.modal-content:hover .fa-adjust {
+  color: #a8dadc !important;
+}
+.modal-content:hover .fa-thumbs-up {
+  color: #a8dadc !important;
+}
+
+/* edit */
+.edit-button {
+  opacity: 0;
+}
+.edit-button:hover {
+  opacity: 1;
+}
+.edit-heading:hover .edit-button {
+  opacity: 1;
+}
+/* scrollbar */
+.scrollbar:hover {
+  overflow: auto !important;
+}
+
+.dropdown-item:active {
+  background-color: #d5d5d5 !important;
+}
+
+/* stories */
+.story:hover {
+  opacity: 0.8;
+}
+
+/* comment */
+.post-comment .accordion-button:after {
+  margin-left: 0 !important;
+  display: none !important;
+}
+.post-comment .accordion-button:hover {
+  background: transparent !important;
+  border-color: transparent !important;
+}
+.post-comment .accordion-button:not(.collapsed) {
+  background: transparent !important;
+  box-shadow: none;
+}
+/* media queries */
+
+@media (min-width: 992px) {
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+}
